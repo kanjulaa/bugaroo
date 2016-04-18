@@ -1,0 +1,18 @@
+Testing specifications for posts:
+
+title: string
+description: string
+issue_type: enum - issue or enhancement or feature
+priority : enum - low or medium or high
+status: enum - published or unpublished
+
+- title must be present
+- description must be present
+
+-Issue_type must be valid
+-priority must be valid
+- status must be valid
+
+The default value of issue_type should be feature.
+The default value of priority should be medium.
+The default value of status should be open.
